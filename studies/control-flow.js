@@ -2,10 +2,14 @@
 * CONTROL FLOW:
 *
 * Control Flow - The order that the program executes the code.
-*                Runs the first line of code all the way to the last. 
+*                When the first condition is met, there will be no need to test any other conditions. 
 *                Will execute the first line of code in which its condition is true. 
 *                Conditional Statements are used to specify a block of code to be executed if the condition is true. 
-*/
+*                Use IF statements when we need to check more than one condition at a time. 
+*                Use switch statements when we need to check a single condition.
+*                IF statements can use logical operators. 
+*                Switch statements cannot use logical operators. 
+*/              
 
 /* 0. If Statements - Can only have one IF Statement. 
 *                     Code will only execute if the given condition evalutes to true.

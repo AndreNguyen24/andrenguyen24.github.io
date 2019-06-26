@@ -2,7 +2,8 @@
 * OPERATORS:
 * 
 * Operators are used to assign values to variables. We can also compare values, perform
-* arithmetic operations, and more. 
+* arithmetic operations, assign arithmetic operation values to variables. We can combine values together
+* and use logical operators to have more than one statements in a condition. 
 */
 
 // 0. Assignment Operators - Used to assign and re-assign values to variables.
@@ -129,7 +130,7 @@ let arr = []             // array literal
 Array.isArray(arr);      // true
 
 
-/* 0. Ternary Operator (?) - Tests two condition.  
+/* 0. Ternary Operator (?) - Takes one condition and two expressions.  
 *                            If the first condition is true, the first expression with execute.
 *                            If the second condition is true, the second expression will execute. 
 *                            Similar to if-else-if statements. 

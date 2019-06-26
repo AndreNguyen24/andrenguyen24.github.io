@@ -1,8 +1,11 @@
 /*
 * FUNCTIONS:
 *
-* Functions - Are reusable blocks of code that are designed to perform or execute codes.
+* Functions - Are your bread and butter to functional programming Javascript. 
+*             Are objects and reusable blocks of code that are designed to perform or execute codes.
 *             A function is defined by its return statement. 
+*             Must always return a value. If no return value is specified the function will return undefined. 
+*             
 */
 
 /* 0. Defining / Declaring a Function - Use the keyword 'function' followed by the function name
@@ -20,20 +23,27 @@ num1 * num2;
 } 
 
 // Can also declare function with arrow syntax (ES6)
-let divide = (num) => {return num / num}; // instead of word 'function' it is replaced by '=>'
+let divide = (num) => num / num; // instead of word 'function' it is replaced by '=>'
 
 // 1. Executing / Calling a Function - Use the name of the function followed by parenthese() for arguments. 
 add(1, 3);              // prints => 4
 multiply(4, 5);         // prints => 20
 divide(6, 2);           // prints => 3
 
-// 2. Function Parameters - Are placeholders for the data we want to pass into the block of code.
+/* 2. Function Parameters - Are placeholders for the data we want to pass into the block of code.
+*                           Are necessary when there are values we want to work with to execute our function code.
+*                           Are variables listed as a part of the function definition. 
+*/
 function addNum(num1, num2) {  // function addNum has two parameters num1, num2 that represent the datatype we're working with
    return num1 + num2;         // using parameters to perform what we want our code to do
 }
 
-// 3. Function Arguments - Use to pass data to the block of code. 
-addNum(2, 8);           // 2 is num1. 8 is num2
+/* 3. Function Arguments - Are values passed to the function when it is invoked. 
+*                          Are necessary when we want to pass in a value to the function. 
+*                          Do not need arguments to call/execute a function.
+*
+*/                        
+addNum(2, 8);           // 2 is num1 and 8 is num2
 
 
 // 4. Scope - Where variables and functions are available and accessible. 

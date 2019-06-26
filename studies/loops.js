@@ -66,8 +66,8 @@ for (let key in colors) {         // accessing keys in 'colors' object
 
 for (let key in colors) {
   console.log(colors.color1);     // dot notation to access specific key/value pairs 
-}
+}                                 // prints => 'blue'
 
 for (let key in colors) {
   console.log(colors['color2']);  // bracket notation to access specific key/value pairs
-}
+}                                 // prints => 'green'
